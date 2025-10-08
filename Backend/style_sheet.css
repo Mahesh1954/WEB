@@ -1,0 +1,41 @@
+.navbar {
+ background-color:#222;
+ padding:10px;
+
+}
+
+/* Remove default UL bullet and spacing */
+.nvabar {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+}
+
+.navbar ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+}
+
+/* Make all Li tags float horizontally */
+.navbar li {
+ float: left;
+}
+
+/*Style The anchor (link) inside li */
+.navbar li a {
+ display: block;
+ color: white;
+ text-decoration: none;
+ padding: 14px 20px;
+ font-size: 18px;
+ text-align: center;
+}
+
+/*Add Hover effect*/
+.navbar li a:hover {
+ background-color: #555;
+ color: yellow;
+}
